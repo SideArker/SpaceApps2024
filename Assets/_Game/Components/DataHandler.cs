@@ -51,13 +51,7 @@ public class DataHandler : MonoBehaviour
     {
         chosenPlanetObject = selectedPlanet;
     }
-
-    public void ChooseElement(ElementObject element)
-    {
-        if (chosenElements.Contains(element)) chosenElements.Remove(element);
-        else chosenElements.Add(element);
-    }
-
+    
     public void EndGame()
     {
         Debug.LogWarning("Game end");
