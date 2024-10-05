@@ -12,9 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba0cf68213be505498a4c97a2feb2a1c, type: 3}
   m_Name: HD 209458 b
   m_EditorClassIdentifier: 
-  PlanetName: 
-  StarName: 
-  PlanetSprite: {fileID: 0}
-  PlanetDescription: 
-  PlanetLookDescription: 
-  elements: []
+  PlanetName: 'HD 209458 b '
+  StarName: HD 209458
+  PlanetSprite: {fileID: 21300000, guid: 0818fbd878acefb4a90ccf26d6f40981, type: 3}
+  PlanetDescription: "HD 209458 b orbits the star HD 209458 in the constellation
+    Pegasus! The atmosphere of HD 209458 b contains hydrogen, oxygen, carbon, and
+    sodium, but not only. There\u2019s also Water vapor, carbon monoxide, and traces
+    of methane. This exoplanet is located approximately 159 light-years away from
+    Earth. Did you know, that the exoplanet has been nicknamed \u201EOsiris\u201D
+    after the Egyptian god?"
+  PlanetLookDescription: "HD 209458 b orbits the star HD 209458 in the constellation
+    Pegasus! The atmosphere of HD 209458 b contains hydrogen, oxygen, carbon, and
+    sodium, but not only. There\u2019s also Water vapor, carbon monoxide, and traces
+    of methane. This exoplanet is located approximately 159 light-years away from
+    Earth. Did you know, that the exoplanet has been nicknamed \u201EOsiris\u201D
+    after the Egyptian god?"
+  elements:
+  - {fileID: 11400000, guid: 1a17cbda33478864aa15aab7c974b09a, type: 2}
+  - {fileID: 11400000, guid: 1d012cf7ff6ed1440930bc53daea7a51, type: 2}

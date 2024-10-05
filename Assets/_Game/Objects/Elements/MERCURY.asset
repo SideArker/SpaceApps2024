@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9c6aa39a0ad72546a29f6b75ab162be, type: 3}
   m_Name: MERCURY
   m_EditorClassIdentifier: 
-  ElementName: 
+  ElementName: Mercury
   Sprite: {fileID: 0}
-  Spectre: {fileID: 0}
+  Spectre: {fileID: 21300000, guid: 88d7e7553f4298d4d9456bd5d5a5029a, type: 3}

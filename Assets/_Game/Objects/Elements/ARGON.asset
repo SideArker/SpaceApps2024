@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9c6aa39a0ad72546a29f6b75ab162be, type: 3}
   m_Name: ARGON
   m_EditorClassIdentifier: 
-  ElementName: 
+  ElementName: Argon
   Sprite: {fileID: 0}
-  Spectre: {fileID: 0}
+  Spectre: {fileID: 21300000, guid: 074267a3f60f72b49a2307a39912aa86, type: 3}

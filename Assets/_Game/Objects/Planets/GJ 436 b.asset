@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba0cf68213be505498a4c97a2feb2a1c, type: 3}
   m_Name: GJ 436 b
   m_EditorClassIdentifier: 
-  PlanetName: 
-  StarName: 
-  PlanetSprite: {fileID: 0}
-  PlanetDescription: 
-  PlanetLookDescription: 
+  PlanetName: 'GJ 436 b '
+  StarName: GJ 436
+  PlanetSprite: {fileID: 21300000, guid: c11e5b9be710dd744949125decbe93f5, type: 3}
+  PlanetDescription: "GJ 436 b is often called Awohali and that means \u201Eeagle\u201D
+    in Cherokee language! This objects atmosphere is filled with hydrogen and helium.
+    Did you know, that it takes only 2 days 15 hours and 30 minutes for one circuit
+    of GJ 436 b? This exoplanets mass is really similar to that of Neptune."
+  PlanetLookDescription: "GJ 436 b is often called Awohali and that means \u201Eeagle\u201D
+    in Cherokee language! This objects atmosphere is filled with hydrogen and helium.
+    Did you know, that it takes only 2 days 15 hours and 30 minutes for one circuit
+    of GJ 436 b? This exoplanets mass is really similar to that of Neptune."
   elements: []

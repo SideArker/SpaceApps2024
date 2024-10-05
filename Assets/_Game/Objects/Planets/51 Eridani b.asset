@@ -12,9 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba0cf68213be505498a4c97a2feb2a1c, type: 3}
   m_Name: 51 Eridani b
   m_EditorClassIdentifier: 
-  PlanetName: 
-  StarName: 
-  PlanetSprite: {fileID: 0}
-  PlanetDescription: 
-  PlanetLookDescription: 
-  elements: []
+  PlanetName: '51 Eridani b '
+  StarName: F0 V 51 Eridani
+  PlanetSprite: {fileID: 21300000, guid: 2afe7487c4c924f459db9cb756028961, type: 3}
+  PlanetDescription: "51 Eridani b is an exoplanet surrounding the star 51 Eridani
+    is located about 96 light years from Earth and it is a gas giant. One revolution
+    of this planet is taking it about 41 years. It has a mass estimated, based on
+    its spectrum, at between 2 and 12 Jupiter masses. It\u2019s atmosphere is filled
+    with carbon and oxygen, but not only. There\u2019s especially a lot of methane."
+  PlanetLookDescription: "51 Eridani b is an exoplanet surrounding the star 51 Eridani
+    is located about 96 light years from Earth and it is a gas giant. One revolution
+    of this planet is taking it about 41 years. It has a mass estimated, based on
+    its spectrum, at between 2 and 12 Jupiter masses. It\u2019s atmosphere is filled
+    with carbon and oxygen, but not only. There\u2019s especially a lot of methane."
+  elements:
+  - {fileID: 11400000, guid: 63124ef8e28476d47b62b40fd3782972, type: 2}
+  - {fileID: 11400000, guid: b5deb30d5675c8d4b9312bc910d5eca1, type: 2}
