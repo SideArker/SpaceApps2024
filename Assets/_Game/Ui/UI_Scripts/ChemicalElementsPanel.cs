@@ -6,6 +6,21 @@ using UnityEngine.Device;
 public class ChemicalElementsPanel : MonoBehaviour
 {
     [SerializeField] GameObject panel;
+    public bool isOpen = false;
+    public void ShowHidePanel()
+    {
+        if(!isOpen)
+        {
+            ShowPanel();
+            isOpen = true;
+        }
+        else
+        {
+            HidePanel();
+            isOpen = false;
+        }
+    }
+
 
     public void ShowPanel()
     {

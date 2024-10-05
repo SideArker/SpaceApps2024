@@ -16,7 +16,7 @@ public class Spectroscopy : MonoBehaviour
 
     public void GoSpectroscopy()
     {
-        progressSlider.value
+        
     }
 
     IEnumerator Progress()
