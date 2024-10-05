@@ -1,9 +1,8 @@
-using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class Spectroscopy : MonoBehaviour
 {
@@ -16,8 +15,6 @@ public class Spectroscopy : MonoBehaviour
     [SerializeField] private TMP_Text progressText;
     [SerializeField] private Slider progressSlider;
 
-
-    [Button]
     public void GoSpectroscopy()
     {
         spectroscopyButton.interactable = false;

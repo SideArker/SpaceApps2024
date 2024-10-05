@@ -15,7 +15,7 @@ public class Journal : MonoBehaviour
 
     public void JournalClose()
     {
-        LeanTween.alphaCanvas(uiElement, 0f, 0.5f).setEase(LeanTweenType.linear).setOnComplete(() => journal.SetActive(false)); ;
+        LeanTween.alphaCanvas(uiElement, 0f, 0.5f).setEase(LeanTweenType.linear).setOnComplete(() => journal.SetActive(false)); 
 
     }
 
