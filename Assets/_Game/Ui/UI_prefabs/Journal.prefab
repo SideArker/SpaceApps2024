@@ -67,15 +67,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Planet name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -134,81 +134,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &1785392166671407199
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6717270108295515563}
-  - component: {fileID: 5062529152760183750}
-  - component: {fileID: 4483635415607058526}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &6717270108295515563
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785392166671407199}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 43323913319775961}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 65, y: -146.517}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &5062529152760183750
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785392166671407199}
-  m_CullTransparentMesh: 1
---- !u!114 &4483635415607058526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785392166671407199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1825931381, guid: 1201c14bb4ee74d8e99e56dc4f3f4fd1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1970819916910939360
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,7 +168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 54, y: 0}
+  m_AnchoredPosition: {x: 53.999985, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6313545439831205119
@@ -384,17 +309,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3606874258331115877}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1507566740308837369}
+  m_Father: {fileID: 1496789503222028609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: 199}
-  m_SizeDelta: {x: 653.438, y: 115.91101}
+  m_AnchoredPosition: {x: -287.63147, y: 170.48248}
+  m_SizeDelta: {x: 575.263, y: 67}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &2699478145367981136
 CanvasRenderer:
@@ -424,17 +349,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ExoPlanet information:'
+  m_text: 'Exoplanet information:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -451,14 +376,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62
-  m_fontSizeBase: 62
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -560,15 +485,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Choose the picture that fits the description:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -657,14 +582,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6717270108295515563}
+  m_Children: []
   m_Father: {fileID: 1507566740308837369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 399.30823, y: 205.73013}
-  m_SizeDelta: {x: 130, y: 293.034}
+  m_AnchoredPosition: {x: 399.30823, y: 148.67697}
+  m_SizeDelta: {x: 30, y: 293.034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9011911756653719603
 CanvasRenderer:
@@ -739,17 +663,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5275837531972950786}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1507566740308837369}
+  m_Father: {fileID: 1496789503222028609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -387.32397, y: 132}
-  m_SizeDelta: {x: 526.664, y: 449.952}
+  m_AnchoredPosition: {x: -309.9495, y: 103.48248}
+  m_SizeDelta: {x: 530.62, y: 449.952}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &1126312188012502986
 CanvasRenderer:
@@ -779,17 +703,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  m_text: 'description
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -806,15 +732,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56
-  m_fontSizeBase: 56
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -882,8 +808,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 111.68573, y: 100}
-  m_SizeDelta: {x: 592.4, y: 176.214}
+  m_AnchoredPosition: {x: 137.146, y: 157.91788}
+  m_SizeDelta: {x: 505.558, y: 205.08}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &5746988800447340674
 CanvasRenderer:
@@ -913,17 +839,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I observed a new exoplanet
+  m_text: During today's observation, I noticed that the star is obscured by an exoplanet.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -940,15 +866,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1284,13 +1210,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   journal: {fileID: 8268675115805315444}
   journalContent:
-  - {fileID: 7267228703350171385}
+  - {fileID: 5983947965029195876}
   - {fileID: 7506986509345186567}
   uiElement: {fileID: 2696210474792469324}
   journalSpeed: 0.25
   exoPlanetName: {fileID: 3409030366135998522}
   exoPlanetDescription: {fileID: 437030290995866244}
-  exoPlanetComposition: {fileID: 1785392166671407199}
+  exoPlanetComposition: {fileID: 5152373184134059227, guid: fb35df51f82674bb0940573983321ea7, type: 3}
+  ImagesParent: {fileID: 43323913319775961}
   exoPlanetNameConfirm: {fileID: 1776143176889287628}
   exoPlanetLookDesc: {fileID: 6126346046243029523}
   confirmImages:
@@ -1363,6 +1290,46 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &5983947965029195876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1496789503222028609}
+  m_Layer: 5
+  m_Name: planetpage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1496789503222028609
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5983947965029195876}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 70691598147250611}
+  - {fileID: 8270810574560560835}
+  - {fileID: 5210220630170135242}
+  - {fileID: 6574611979576657443}
+  - {fileID: 3012875931957759429}
+  m_Father: {fileID: 895475956673356873}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 389.08725, y: 28.517502}
+  m_SizeDelta: {x: 575.26447, y: 858.876}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &6110405713021701059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,18 +1355,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6110405713021701059}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1360047670437120463}
-  m_Father: {fileID: 1507566740308837369}
+  m_Father: {fileID: 1496789503222028609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -441.43, y: 300}
-  m_SizeDelta: {x: 418.45, y: 115.911}
+  m_AnchoredPosition: {x: -357.58948, y: 284.2087}
+  m_SizeDelta: {x: 435.35, y: 113.73}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &3272578190011788795
 CanvasRenderer:
@@ -1431,15 +1398,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Planet Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1456,15 +1423,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62
-  m_fontSizeBase: 62
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1529,6 +1496,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1507566740308837369}
+  - {fileID: 1496789503222028609}
   - {fileID: 2189973225617829397}
   m_Father: {fileID: 3753355568957495277}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1754,15 +1722,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1850,14 +1818,14 @@ RectTransform:
   m_GameObject: {fileID: 6966933088484103492}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.79, y: 1.79, z: 1.79}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2339322302215774802}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 210.00006, y: -90}
+  m_AnchoredPosition: {x: 163, y: -44}
   m_SizeDelta: {x: 67.574, y: 63.868}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &9081953158984144503
@@ -1888,7 +1856,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 51e9b9119ab294ecca88118e67cdd8eb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1918,6 +1886,7 @@ MonoBehaviour:
   exoPlanetName: {fileID: 0}
   exoPlanetDescription: {fileID: 0}
   exoPlanetComposition: {fileID: 0}
+  ImagesParent: {fileID: 0}
   exoPlanetNameConfirm: {fileID: 0}
   exoPlanetLookDesc: {fileID: 0}
   confirmImages:
@@ -1987,11 +1956,6 @@ RectTransform:
   - {fileID: 52288403574018195}
   - {fileID: 2010913682727407997}
   - {fileID: 43323913319775961}
-  - {fileID: 70691598147250611}
-  - {fileID: 8270810574560560835}
-  - {fileID: 5210220630170135242}
-  - {fileID: 6574611979576657443}
-  - {fileID: 3012875931957759429}
   m_Father: {fileID: 895475956673356873}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2348,8 +2312,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -50}
-  m_SizeDelta: {x: 653.438, y: 115.911}
+  m_AnchoredPosition: {x: 389.92, y: -50}
+  m_SizeDelta: {x: 505.558, y: 115.911}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &5372014246783708276
 CanvasRenderer:
@@ -2381,17 +2345,17 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Observation No.1
 
-    O5-1O-2O24'
+    O6-1O-2O24'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2408,14 +2372,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62
-  m_fontSizeBase: 62
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2484,8 +2448,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -100}
-  m_SizeDelta: {x: 653.961, y: 154.716}
+  m_AnchoredPosition: {x: 137.14594, y: -72.51741}
+  m_SizeDelta: {x: 569.542, y: 252.889}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &352447006506976936
 CanvasRenderer:
@@ -2515,17 +2479,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'It''s made out of:'
+  m_text: 'Using spectroscopy, I can determine that this planet''s atmosphere is
+    made of:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2542,14 +2507,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2609,17 +2574,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8263949340035366395}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1507566740308837369}
+  m_Father: {fileID: 1496789503222028609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -400, y: -50}
-  m_SizeDelta: {x: 653.438, y: 115.911}
+  m_AnchoredPosition: {x: -287.63147, y: -57.955505}
+  m_SizeDelta: {x: 575.263, y: 115.911}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &4980053748717557570
 CanvasRenderer:
@@ -2651,15 +2616,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'I think it''s called:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2676,14 +2641,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62
-  m_fontSizeBase: 62
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2764,7 +2729,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8268675115805315444}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -2794,17 +2759,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8536059491475111466}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7467073550939149066}
-  m_Father: {fileID: 1507566740308837369}
+  m_Father: {fileID: 1496789503222028609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -383, y: 85}
+  m_AnchoredPosition: {x: -309.71948, y: 35.92047}
   m_SizeDelta: {x: 209.225, y: 71.841}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4286502799620130366
@@ -2956,15 +2921,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Consists of:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
-  m_sharedMaterial: {fileID: 2341060114715177811, guid: ef26d08a4c1014ab48408e6ca97c1662, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
+  m_sharedMaterial: {fileID: -2864988501906634686, guid: aeb5243d95049439eb5c8f27a3f05667, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

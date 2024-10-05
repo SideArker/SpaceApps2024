@@ -16,7 +16,8 @@ public class Journal : MonoBehaviour
     [SerializeField] TMP_Text exoPlanetName;
     [SerializeField] TMP_Text exoPlanetDescription;
     [SerializeField] GameObject exoPlanetComposition;
-    List<GameObject> tempImages = new List<GameObject>();
+    [SerializeField] private Transform ImagesParent;
+    [SerializeField] List<GameObject> tempImages = new List<GameObject>();
 
     [Header("Planet Choosing Panel")]
     [SerializeField] TMP_Text exoPlanetNameConfirm;
@@ -29,37 +30,59 @@ public class Journal : MonoBehaviour
     public void SetValues()
     {
         DataHandler dh = DataHandler.instance;
-        PlanetObject planet = dh.chosenPlanetObject;
+        PlanetObject findedPlanet = dh.chosenPlanetObject;
 
-        if(planet == null)
+        foreach (var planet in dh.planets)
+        {
+            foreach (var element in planet.elements)
+            {
+                //
+            }
+        }
+
+        if(findedPlanet == null)
         {
             foreach (GameObject item in journalContent)
             {
                 item.SetActive(false);
             }
-            return;
+            // return;
         } else
         {
             foreach (GameObject item in journalContent)
             {
                 item.SetActive(true);
             }
+            exoPlanetName.text = findedPlanet.name;
+            exoPlanetDescription.text = findedPlanet.PlanetDescription;
+            
+            exoPlanetNameConfirm.text = findedPlanet.name;
+            exoPlanetLookDesc.text = findedPlanet.PlanetLookDescription;
         }
 
 
-        exoPlanetName.text = planet.name;
-        exoPlanetDescription.text = planet.PlanetDescription;
-
-        foreach(ElementObject element in planet.elements)
+        
+        print("before");
+        
+        
+        foreach(GameObject gameObject in tempImages)
         {
-            GameObject img = Instantiate(exoPlanetComposition);
+            Destroy(gameObject);
+        }
+        tempImages.Clear();
+
+        
+        foreach(ElementObject element in dh.chosenElements)
+        {
+            GameObject img = Instantiate(exoPlanetComposition, ImagesParent);
             img.GetComponent<Image>().sprite = element.Sprite;
             tempImages.Add(img);
         }
 
-        exoPlanetNameConfirm.text = planet.name;
-        exoPlanetLookDesc.text = planet.PlanetLookDescription;
+    }
 
+    private void sketchSelect(DataHandler dh)
+    {
         List<PlanetObject> tempPlanets = dh.planets;
         foreach(Image img in confirmImages)
         {
@@ -69,9 +92,10 @@ public class Journal : MonoBehaviour
         }
     }
 
-    
+
     public void JournalOpen()
     {
+        print("Open");
         journal.SetActive(true);
         SetValues();
         LeanTween.alphaCanvas(uiElement, 1f, journalSpeed).setEase(LeanTweenType.linear);
@@ -81,12 +105,6 @@ public class Journal : MonoBehaviour
     {
         LeanTween.alphaCanvas(uiElement, 0f, journalSpeed).setEase(LeanTweenType.linear).setOnComplete(() => journal.SetActive(false)); 
 
-
-        foreach(GameObject gameObject in tempImages)
-        {
-            Destroy(gameObject);
-        }
-        tempImages.Clear();
     }
 
 }

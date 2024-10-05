@@ -12,7 +12,7 @@ public class ElementSetter : MonoBehaviour
     {
         foreach (var element in DataHandler.instance.elements)
         {
-            print("sth");
+            // print("sth");
             var t = Instantiate(elementListPrefab, listParent);
             var g = t.GetComponent<ElementSelector>();
             g.element = element;
