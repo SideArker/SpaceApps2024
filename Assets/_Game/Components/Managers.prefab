@@ -45,6 +45,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3d629ee29853240b66c833851b9a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: 0
+  time: 0
+  <selectedPlanet>k__BackingField: {fileID: 0}
+  <chosenPlanetObject>k__BackingField: {fileID: 0}
+  <chosenElements>k__BackingField: []
+  <planets>k__BackingField:
+  - {fileID: 11400000, guid: a8e8940a98721475f8a691ec877e0736, type: 2}
 --- !u!114 &6311723844891095806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +67,7 @@ MonoBehaviour:
   useDefaultBackgroundColor: 0
   backgroundColor:
     serializedVersion: 2
-    rgba: 4278190335
+    rgba: 4278190169
   useDefaultTextColor: 0
   textColor:
     serializedVersion: 2

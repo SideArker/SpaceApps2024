@@ -15,6 +15,8 @@ public class DataHandler : MonoBehaviour
     public PlanetObject chosenPlanetObject { get; private set; }
     public bool correctPlanet { get; private set; }
 
+    public ElementObject[] elements;
+
     [field: SerializeField]
     public List<ElementObject> chosenElements { get; private set; } = new List<ElementObject>();
 
