@@ -371,6 +371,7 @@ GameObject:
   - component: {fileID: 175363391}
   - component: {fileID: 175363390}
   - component: {fileID: 175363389}
+  - component: {fileID: 175363392}
   m_Layer: 0
   m_Name: Star
   m_TagString: Untagged
@@ -440,7 +441,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1a9a7ad3756a4797a47b4efd86f7201, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -468,6 +469,22 @@ Transform:
   - {fileID: 1825195181}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &175363392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175363388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9349b0c357d044671800771c1d21e602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 1825195181}
+  planetTransform: {fileID: 1246224402}
+  camera: {fileID: 1825195183}
+  speed: 1.5
 --- !u!1 &201484250
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,7 +912,6 @@ GameObject:
   - component: {fileID: 542188085}
   - component: {fileID: 542188084}
   - component: {fileID: 542188083}
-  - component: {fileID: 542188086}
   m_Layer: 5
   m_Name: LensScreen
   m_TagString: Untagged
@@ -974,20 +990,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542188081}
   m_CullTransparentMesh: 1
---- !u!114 &542188086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542188081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9349b0c357d044671800771c1d21e602, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planetTransform: {fileID: 0}
-  starTransform: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1158,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1959241471}
         m_TargetAssemblyTypeName: Spectroscopy, Assembly-CSharp
         m_MethodName: GoSpectroscopy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 175363392}
+        m_TargetAssemblyTypeName: SpectroscopyAnimation, Assembly-CSharp
+        m_MethodName: StartTranzytAnimation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1691,8 +1705,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 175363391}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2739,7 +2753,7 @@ Transform:
   m_GameObject: {fileID: 1825195180}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
