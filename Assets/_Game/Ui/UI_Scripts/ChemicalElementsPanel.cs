@@ -32,7 +32,7 @@ public class ChemicalElementsPanel : MonoBehaviour
     public void HidePanel()
     {
         closingTarget.SetActive(false);
-        panel.transform.LeanMoveLocalY(-1500f, .5f);
+        panel.transform.LeanMoveLocalY(-1490f, .5f);
        
     }
     
