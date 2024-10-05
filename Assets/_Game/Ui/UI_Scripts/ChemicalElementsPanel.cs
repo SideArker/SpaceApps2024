@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Device;
-using UnityEngine.UIElements;
 
 public class ChemicalElementsPanel : MonoBehaviour
 {
     [SerializeField] GameObject panel;
+    [SerializeField] private GameObject closingTarget;
     public bool isOpen = false;
     public void ShowHidePanel()
     {
@@ -25,12 +26,13 @@ public class ChemicalElementsPanel : MonoBehaviour
 
     public void ShowPanel()
     {
-        LeanTween.moveY(panel, new Vector2().y, 0.5f);
+        panel.transform.LeanMoveLocalY(-500f, .5f).setOnComplete(() => closingTarget.SetActive(true));
     }
 
     public void HidePanel()
     {
-        LeanTween.moveY(panel, -UnityEngine.Device.Screen.height + UnityEngine.Device.Screen.height / 7f, 0.5f);
+        closingTarget.SetActive(false);
+        panel.transform.LeanMoveLocalY(-1500f, .5f);
        
     }
     
