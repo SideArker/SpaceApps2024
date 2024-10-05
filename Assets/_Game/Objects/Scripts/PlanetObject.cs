@@ -12,7 +12,7 @@ public class PlanetObject : ScriptableObject
     public string PlanetName;
     public string StarName;
     public Sprite PlanetSprite;
-    public Sprite SpectreSprite;
+    // public Sprite SpectreSprite;
     [TextArea(0, 20)] public string PlanetDescription;
     [TextArea(0, 20)] public string PlanetLookDescription;
 

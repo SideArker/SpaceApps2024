@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class DataHandler : MonoBehaviour
 {
@@ -25,7 +27,15 @@ public class DataHandler : MonoBehaviour
     public void StartGame()
     {
         Debug.LogWarning("Starting game");
-        selectedPlanet = planets[Random.Range(0, planets.Count)];
+        try
+        {
+            selectedPlanet = planets[Random.Range(0, planets.Count)];
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
         StartCoroutine(Timer());
     }
 
