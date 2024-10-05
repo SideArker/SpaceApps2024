@@ -11,7 +11,7 @@ public class DataHandler : MonoBehaviour
     public PlanetObject selectedPlanet { get; private set; }
     public bool correctPlanet { get; private set; }
 
-    List<PlanetObject> planets = new List<PlanetObject>();
+    [SerializeField] List<PlanetObject> planets = new List<PlanetObject>();
 
     private void Awake()
     {
