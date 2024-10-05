@@ -26,11 +26,13 @@ public class DataHandler : MonoBehaviour
     {
         Debug.LogWarning("Starting game");
         selectedPlanet = planets[Random.Range(0, planets.Count)];
+        StartCoroutine(Timer());
     }
 
     public void EndGame()
     {
         Debug.LogWarning("Game end");
+        StopAllCoroutines();
         GetComponent<PointCounter>().AddPoints(time);
     }
 
