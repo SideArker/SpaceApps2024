@@ -11,10 +11,15 @@ public class DataHandler : MonoBehaviour
     [SerializeField] float time;
     [field: SerializeField]
     public PlanetObject selectedPlanet { get; private set; }
+    [field: SerializeField]
+    public PlanetObject chosenPlanetObject { get; private set; }
     public bool correctPlanet { get; private set; }
 
-    [SerializeField] List<ElementObject> chosenElements = new List<ElementObject>();
-    [SerializeField] List<PlanetObject> planets = new List<PlanetObject>();
+    [field: SerializeField]
+    public List<ElementObject> chosenElements { get; private set; } = new List<ElementObject>();
+
+    [field: SerializeField]
+    public List<PlanetObject> planets { get; private set; } = new List<PlanetObject>();
 
     private void Awake()
     {
@@ -38,6 +43,17 @@ public class DataHandler : MonoBehaviour
             throw;
         }
         StartCoroutine(Timer());
+    }
+
+    public void ChooseObject(PlanetObject selectedPlanet)
+    {
+        chosenPlanetObject = selectedPlanet;
+    }
+
+    public void ChooseElement(ElementObject element)
+    {
+        if (chosenElements.Contains(element)) chosenElements.Remove(element);
+        else chosenElements.Add(element);
     }
 
     public void EndGame()
