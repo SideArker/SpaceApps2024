@@ -18,5 +18,5 @@ MonoBehaviour:
   PlanetDescription: fajna PLANETA
   PlanetLookDescription: "ziemia jest p\u0142aska"
   elements:
-  - {fileID: 11400000, guid: b6e88dd6e26184ae8bfbaa95cd287d63, type: 2}
-  - {fileID: 11400000, guid: b6e88dd6e26184ae8bfbaa95cd287d63, type: 2}
+  - {fileID: 11400000, guid: d56413a9a8fefe14bb66c1f2a108cc20, type: 2}
+  - {fileID: 11400000, guid: 1a17cbda33478864aa15aab7c974b09a, type: 2}
