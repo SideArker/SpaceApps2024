@@ -12,12 +12,12 @@ public class ChemicalElementsPanel : MonoBehaviour
     {
         if(!isShown)
         {
-            LeanTween.moveY(panel, UnityEngine.Screen.height / 10, 1f);
+            LeanTween.moveY(panel, new Vector2().y, 1f);
             isShown = true;
         }
         else
         {
-            LeanTween.moveY(panel, -UnityEngine.Screen.height / 4.5f, 1f);
+            LeanTween.moveY(panel, -UnityEngine.Device.Screen.height / 2f, 1f);
             isShown = false;
         }
     }
