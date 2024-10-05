@@ -49,6 +49,7 @@ public class Spectroscopy : MonoBehaviour
 
     IEnumerator LeanText()
     {
+        yield return new WaitUntil(() => decoText);
         decoText.text = "";
 
         decoPanel.SetActive(true);
