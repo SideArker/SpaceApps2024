@@ -6,21 +6,15 @@ using UnityEngine.Device;
 public class ChemicalElementsPanel : MonoBehaviour
 {
     [SerializeField] GameObject panel;
-    public bool isShown = false;
-    
-    public void ShowHidePanel()
+
+    public void ShowPanel()
     {
-        if(!isShown)
-        {
-            LeanTween.moveY(panel, new Vector2().y, 1f);
-            isShown = true;
-        }
-        else
-        {
-            LeanTween.moveY(panel, -UnityEngine.Device.Screen.height / 2f, 1f);
-            isShown = false;
-        }
+        LeanTween.moveY(panel, new Vector2().y, 1f);
     }
 
+    public void HidePanel()
+    {
+        LeanTween.moveY(panel, -UnityEngine.Device.Screen.height / 2f, 1f);
+    }
     
 }
