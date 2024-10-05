@@ -25,9 +25,7 @@ public class LightFlicker : MonoBehaviour
         while(true)
         {
             int subsequentFlicks = Random.Range(1, 2);
-            Debug.Log(subsequentFlicks);
-            Debug.Log("yooo");
-            yield return new WaitForSeconds(Random.Range(1, 5));
+           yield return new WaitForSeconds(Random.Range(25f, timeForFlicker));
             for (int i = 0; i < subsequentFlicks; i++)
             {
                 spriteRenderer.sprite = unlitSprite;

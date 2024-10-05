@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class Journal : MonoBehaviour
 {
     [SerializeField] GameObject journal;
+    [SerializeField] GameObject[] journalContent;
     [SerializeField] CanvasGroup uiElement;
     [SerializeField] private float journalSpeed = 0.25f;
 
@@ -29,6 +30,23 @@ public class Journal : MonoBehaviour
     {
         DataHandler dh = DataHandler.instance;
         PlanetObject planet = dh.chosenPlanetObject;
+
+        if(planet == null)
+        {
+            foreach (GameObject item in journalContent)
+            {
+                item.SetActive(false);
+            }
+            return;
+        } else
+        {
+            foreach (GameObject item in journalContent)
+            {
+                item.SetActive(true);
+            }
+        }
+
+
         exoPlanetName.text = planet.name;
         exoPlanetDescription.text = planet.PlanetDescription;
 

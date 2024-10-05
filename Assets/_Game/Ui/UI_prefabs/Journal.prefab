@@ -1283,6 +1283,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   journal: {fileID: 8268675115805315444}
+  journalContent:
+  - {fileID: 7267228703350171385}
+  - {fileID: 7506986509345186567}
   uiElement: {fileID: 2696210474792469324}
   journalSpeed: 0.25
   exoPlanetName: {fileID: 3409030366135998522}
@@ -1507,7 +1510,7 @@ GameObject:
   - component: {fileID: 5135885685050011083}
   - component: {fileID: 3320747368250051268}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: journalContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1908,6 +1911,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   journal: {fileID: 8268675115805315444}
+  journalContent:
+  - {fileID: 0}
   uiElement: {fileID: 2696210474792469324}
   journalSpeed: 0.25
   exoPlanetName: {fileID: 0}
