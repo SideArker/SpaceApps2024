@@ -33,11 +33,11 @@ public class Spectroscopy : MonoBehaviour
 
     IEnumerator ShowSpectre()
     {
-        StartCoroutine(LeanText());
         yield return new WaitForSeconds(0.2f);
         progress.SetActive(false);
         // Debug.Log("poka widmo");
         elementsParent.gameObject.SetActive(true);
+        decoPanel.SetActive(false);
         foreach (var element in DataHandler.instance.selectedPlanet.elements)
         {
             print(element.ElementName);
