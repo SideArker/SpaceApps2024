@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class Spectroscopy : MonoBehaviour
 {
     [SerializeField] private Transform elementsParent;
     [SerializeField] private GameObject elementPrefab;
     [SerializeField] private GameObject NoDataText;
-    
+
     [SerializeField] private GameObject progress;
     [SerializeField] private Button spectroscopyButton;
     [SerializeField] private TMP_Text progressText;
     [SerializeField] private Slider progressSlider;
-    [SerializeField] [TextArea(0, 20)] private string decoTextArea;
+    [SerializeField][TextArea(0, 20)] private string decoTextArea;
     [SerializeField] private TMP_Text decoText;
     [SerializeField] private GameObject decoPanel;
 
@@ -44,6 +44,9 @@ public class Spectroscopy : MonoBehaviour
             Image obj = Instantiate(elementPrefab, elementsParent).GetComponent<Image>();
             obj.sprite = element.Spectre;
         }
+
+    }
+
     IEnumerator LeanText()
     {
         decoText.text = "";
@@ -58,4 +61,5 @@ public class Spectroscopy : MonoBehaviour
             yield return new WaitForSeconds(2f / decoTextArea.Length);
         }
     }
+
 }
