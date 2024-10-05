@@ -14,12 +14,16 @@ public class Spectroscopy : MonoBehaviour
     [SerializeField] private Button spectroscopyButton;
     [SerializeField] private TMP_Text progressText;
     [SerializeField] private Slider progressSlider;
+    [SerializeField] [TextArea(0, 20)] private string decoTextArea;
+    [SerializeField] private TMP_Text decoText;
+    [SerializeField] private GameObject decoPanel;
 
     public void GoSpectroscopy()
     {
         spectroscopyButton.interactable = false;
         NoDataText.gameObject.SetActive(false);
         progress.SetActive(true);
+        StartCoroutine(LeanText());
         LeanTween.value(progress, 0f, 1f, 3f).setEase(LeanTweenType.easeInOutSine).setOnUpdate((float val) =>
         {
             progressSlider.value = val;
@@ -29,6 +33,7 @@ public class Spectroscopy : MonoBehaviour
 
     IEnumerator ShowSpectre()
     {
+        StartCoroutine(LeanText());
         yield return new WaitForSeconds(0.2f);
         progress.SetActive(false);
         // Debug.Log("poka widmo");
@@ -38,6 +43,19 @@ public class Spectroscopy : MonoBehaviour
             print(element.ElementName);
             Image obj = Instantiate(elementPrefab, elementsParent).GetComponent<Image>();
             obj.sprite = element.Spectre;
+        }
+    IEnumerator LeanText()
+    {
+        decoText.text = "";
+
+        decoPanel.SetActive(true);
+
+        int index = 0;
+        while (index < decoTextArea.Length)
+        {
+            decoText.text += decoTextArea[index];
+            index++;
+            yield return new WaitForSeconds(2f / decoTextArea.Length);
         }
     }
 }
