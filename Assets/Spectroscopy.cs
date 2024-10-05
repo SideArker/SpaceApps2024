@@ -1,8 +1,9 @@
+using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class Spectroscopy : MonoBehaviour
 {
@@ -14,13 +15,19 @@ public class Spectroscopy : MonoBehaviour
     [SerializeField] private TMP_Text progressText;
     [SerializeField] private Slider progressSlider;
 
+
+    [Button]
     public void GoSpectroscopy()
     {
-        progressSlider.value
+        LeanTween.value(progress, 0f, 1f, 3f).setEase(LeanTweenType.easeInOutSine).setOnUpdate((float val) =>
+        {
+            progressSlider.value = val;
+            progressText.text = Mathf.RoundToInt(val * 100).ToString() + " %";
+        }).setOnComplete(() => ShowSpectre());
     }
 
-    IEnumerator Progress()
+    void ShowSpectre()
     {
-        yield return new WaitForSeconds(3);
+        Debug.Log("poka widmo");
     }
 }
