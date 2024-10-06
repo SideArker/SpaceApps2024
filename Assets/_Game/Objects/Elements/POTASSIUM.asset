@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: POTASSIUM
   m_EditorClassIdentifier: 
   ElementName: potassium
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: e5bc85bb92a8a3d47a1422c693d16043, type: 3}
   Spectre: {fileID: 21300000, guid: b72e7eb6af86d86469529cc3b3094100, type: 3}

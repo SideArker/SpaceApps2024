@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: OXYGEN
   m_EditorClassIdentifier: 
   ElementName: Oxygen
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: 1651b27fd42cf404b8eb6d02c38b797e, type: 3}
   Spectre: {fileID: 21300000, guid: 9d9cd4beda1067446baf44cd3e0ea2fd, type: 3}

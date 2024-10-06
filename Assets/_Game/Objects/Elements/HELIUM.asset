@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: HELIUM
   m_EditorClassIdentifier: 
   ElementName: Helium
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: 36a9c87cddb16624292e4a8de33bb1d3, type: 3}
   Spectre: {fileID: 21300000, guid: c1485fdd2a8cdbe47b08764dce80657f, type: 3}

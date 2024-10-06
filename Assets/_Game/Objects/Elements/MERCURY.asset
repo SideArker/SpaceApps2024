@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MERCURY
   m_EditorClassIdentifier: 
   ElementName: Mercury
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: 6a6f5cad3fb555742a10ea3cbe84ccc2, type: 3}
   Spectre: {fileID: 21300000, guid: 88d7e7553f4298d4d9456bd5d5a5029a, type: 3}

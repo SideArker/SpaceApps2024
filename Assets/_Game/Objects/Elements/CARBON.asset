@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CARBON
   m_EditorClassIdentifier: 
   ElementName: Carbon
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: acd018532ee0a314a9f1a5cdcae26a35, type: 3}
   Spectre: {fileID: 21300000, guid: 4d397c0ead9a9874d9056bd6a16a96cd, type: 3}

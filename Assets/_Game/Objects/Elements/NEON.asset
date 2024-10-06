@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: NEON
   m_EditorClassIdentifier: 
   ElementName: Neon
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: 2a17c3179833db84bb0b71be992d19d0, type: 3}
   Spectre: {fileID: 21300000, guid: 6e5c7eb672d72dc47b8ca9843dd171c9, type: 3}

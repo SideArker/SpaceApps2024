@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: HYDROGEN
   m_EditorClassIdentifier: 
   ElementName: Hydrogen
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: 7f4c58b5a1d99bc49861a6e4d9559320, type: 3}
   Spectre: {fileID: 21300000, guid: 3273de3e676293d418ac4b5f36d3019f, type: 3}

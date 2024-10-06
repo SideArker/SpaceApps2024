@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ARGON
   m_EditorClassIdentifier: 
   ElementName: Argon
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: 51f934d7398f51f4b8df8149d6b8a88e, type: 3}
   Spectre: {fileID: 21300000, guid: 074267a3f60f72b49a2307a39912aa86, type: 3}
