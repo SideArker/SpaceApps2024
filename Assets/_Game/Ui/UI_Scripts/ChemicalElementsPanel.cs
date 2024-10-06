@@ -9,12 +9,16 @@ public class ChemicalElementsPanel : MonoBehaviour
     [SerializeField] GameObject panel;
     [SerializeField] private GameObject closingTarget;
     public bool isOpen = false;
+
     public void ShowHidePanel()
     {
-        if(!isOpen)
+        if (!isOpen)
         {
-            ShowPanel();
-            isOpen = true;
+            if (Journal.Instance.journal.activeSelf == false)
+            {
+                ShowPanel();
+                isOpen = true;
+            }
         }
         else
         {
@@ -33,7 +37,5 @@ public class ChemicalElementsPanel : MonoBehaviour
     {
         closingTarget.SetActive(false);
         panel.transform.LeanMoveLocalY(-1490f, .5f);
-       
     }
-    
 }

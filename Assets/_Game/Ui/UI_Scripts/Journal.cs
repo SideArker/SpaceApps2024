@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -8,11 +9,14 @@ using UnityEngine.UI;
 
 public class Journal : MonoBehaviour
 {
-    [SerializeField] GameObject journal;
+    public static Journal Instance;
+    [SerializeField] public GameObject journal;
 
     [FormerlySerializedAs("journalContent")] [SerializeField]
     GameObject planetPanel;
     [SerializeField] GameObject NotePanel;
+
+    [SerializeField] private TMP_Text firstText;
 
     [SerializeField] CanvasGroup uiElement;
     [SerializeField] private float journalSpeed = 0.25f;
@@ -34,7 +38,25 @@ public class Journal : MonoBehaviour
 
     [SerializeField] Image[] confirmImages = new Image[3];
 
-    public bool isOpen = false;
+    // public bool isOpen = false;
+
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+    }
+
+    private void Start()
+    {
+        try
+        {
+            PlayerPrefs.SetInt("ObservationNumber", PlayerPrefs.GetInt("ObservationNumber") + 1);
+            firstText.text = $"Observation No.{PlayerPrefs.GetInt("ObservationNumber")}\n{DateTime.Now.ToString("dd-MM-yyyy")}";
+        }
+        catch
+        {
+        }
+
+    }
 
     public void SetValues()
     {
@@ -52,7 +74,7 @@ public class Journal : MonoBehaviour
                 }
             }
 
-            if (test)
+            if (test && dh.chosenElements.Count == 2)
             {
                 findedPlanet = planet;
                 break;
@@ -79,7 +101,7 @@ public class Journal : MonoBehaviour
         }
 
 
-        print("before");
+        // print("before");
 
 
         foreach (GameObject gameObject in tempImages)
@@ -118,12 +140,18 @@ public class Journal : MonoBehaviour
     {
         print("Open");
         journal.SetActive(true);
+        // print("otwieranie");
+        // isOpen = true;
         SetValues();
         LeanTween.alphaCanvas(uiElement, 1f, journalSpeed).setEase(LeanTweenType.linear);
     }
 
     public void JournalClose()
     {
+        // print("zamykanie");
+        // isOpen = false;
+
+        
         LeanTween.alphaCanvas(uiElement, 0f, journalSpeed).setEase(LeanTweenType.linear)
             .setOnComplete(() => journal.SetActive(false));
     }
