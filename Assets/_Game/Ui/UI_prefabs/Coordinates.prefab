@@ -5716,7 +5716,7 @@ MonoBehaviour:
   moveSpeed: 0.75
   cameraBounds: {fileID: 2955682806720283844}
   pingCooldown: 3
-  numberOfStars: 15
+  numberOfStars: 25
   star: {fileID: 8929900566065275815}
   spawnBounds: {fileID: 4669151271130622181}
   crosshair: {fileID: 3911507284158565540}
@@ -5821,7 +5821,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6949720277210370311}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -585.2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

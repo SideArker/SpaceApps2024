@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -31,6 +32,8 @@ public class DataHandler : MonoBehaviour
     public int countedTime = 0;
 
     public GameObject summaryScreen;
+
+    public TMP_Text descriptionText;
     
     private void Awake()
     {
@@ -44,6 +47,7 @@ public class DataHandler : MonoBehaviour
     public void StartGame()
     {
         Debug.LogWarning("Starting game");
+
 
         // for (int i = 0; i < 10; i++)
         // {
@@ -63,6 +67,8 @@ public class DataHandler : MonoBehaviour
             Console.WriteLine(e);
             throw;
         }
+        // descriptionText.text = $"\n2024 Oct 6 \n{DateTime.Now.ToString("hh:mm:ss")}\n\nLocation: \nCenter of Earth, \nStalowa Wola\n\nFace: {selectedPlanet.StarName}\n\nField: 35.1\" x 36.5\"";
+
         StartCoroutine(Timer());
     }
 
@@ -94,6 +100,8 @@ public class DataHandler : MonoBehaviour
         time = 0;
         while (true)
         {
+            descriptionText.text = $"\n2024 Oct 6 \n{DateTime.Now.ToString("hh:mm:ss")}\n\nLocation: \nCenter of Earth, \nStalowa Wola\n\nFace of the star: {selectedPlanet.StarName}\n\nField: 35.1\" x 36.5\"";
+
             yield return new WaitForSeconds(1f);
             time++;
         }
