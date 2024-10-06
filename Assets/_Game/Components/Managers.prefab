@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2811100499536042105
 Transform:
@@ -51,16 +51,17 @@ MonoBehaviour:
   chosenPlanetObject: {fileID: 0}
   elements:
   - {fileID: 11400000, guid: d56413a9a8fefe14bb66c1f2a108cc20, type: 2}
+  - {fileID: 11400000, guid: b5deb30d5675c8d4b9312bc910d5eca1, type: 2}
   - {fileID: 11400000, guid: 1a17cbda33478864aa15aab7c974b09a, type: 2}
   - {fileID: 11400000, guid: 1d012cf7ff6ed1440930bc53daea7a51, type: 2}
+  - {fileID: 11400000, guid: 7b1304e8fc9698f429ca1499c09bd9b4, type: 2}
+  - {fileID: 11400000, guid: 708c693a52d2ad043835defe10754b2f, type: 2}
   - {fileID: 11400000, guid: 7ac63b5857aec664c95831fc47981cb5, type: 2}
-  - {fileID: 11400000, guid: b5deb30d5675c8d4b9312bc910d5eca1, type: 2}
   - {fileID: 11400000, guid: 9bb891649aff5ba45aeb65cb18530c3b, type: 2}
   - {fileID: 11400000, guid: 7ab2cc8aea0b1ad47b84f3f7b4cb843e, type: 2}
   - {fileID: 11400000, guid: 63124ef8e28476d47b62b40fd3782972, type: 2}
+  - {fileID: 11400000, guid: ee75700ae6c9b24429297ce4ae17976a, type: 2}
   - {fileID: 11400000, guid: 47c921e08449d42498a72f4e27e2c2f7, type: 2}
-  - {fileID: 11400000, guid: 708c693a52d2ad043835defe10754b2f, type: 2}
-  - {fileID: 11400000, guid: 7b1304e8fc9698f429ca1499c09bd9b4, type: 2}
   <chosenElements>k__BackingField: []
   <planets>k__BackingField:
   - {fileID: 11400000, guid: 54ed4e80c89aa13419f06ef85fe92b2c, type: 2}
