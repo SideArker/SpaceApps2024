@@ -5562,7 +5562,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exo Observer
+  m_text: ExoGazer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fb5dc60a1ec1f42e9adc0376a1ab2239, type: 2}
   m_sharedMaterial: {fileID: 6344547599512581082, guid: fb5dc60a1ec1f42e9adc0376a1ab2239, type: 2}
@@ -5571,8 +5571,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294909184
-  m_fontColor: {r: 0, g: 0.11231804, b: 1, a: 1}
+    rgba: 4294964224
+  m_fontColor: {r: 0, g: 0.95686275, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 1
   m_fontColorGradient:
