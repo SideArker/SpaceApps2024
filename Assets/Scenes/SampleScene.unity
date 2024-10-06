@@ -1391,9 +1391,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 893475277}
     m_Modifications:
+    - target: {fileID: 43323913319775961, guid: f5f0347ffc5050f4a9d0b963a2a09486, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983947965029195876, guid: f5f0347ffc5050f4a9d0b963a2a09486, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6829395282762369833, guid: f5f0347ffc5050f4a9d0b963a2a09486, type: 3}
       propertyPath: m_Name
       value: Journal
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267228703350171385, guid: f5f0347ffc5050f4a9d0b963a2a09486, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506986509345186567, guid: f5f0347ffc5050f4a9d0b963a2a09486, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8982335254119104702, guid: f5f0347ffc5050f4a9d0b963a2a09486, type: 3}
       propertyPath: m_Pivot.x
@@ -3644,6 +3660,26 @@ PrefabInstance:
       propertyPath: elements.Array.data[7]
       value: 
       objectReference: {fileID: 11400000, guid: 47c921e08449d42498a72f4e27e2c2f7, type: 2}
+    - target: {fileID: 8823718451175743602, guid: 1ed94cf65ea9f1d49ba90e9cbd553621, type: 3}
+      propertyPath: <planets>k__BackingField.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8823718451175743602, guid: 1ed94cf65ea9f1d49ba90e9cbd553621, type: 3}
+      propertyPath: <planets>k__BackingField.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 54ed4e80c89aa13419f06ef85fe92b2c, type: 2}
+    - target: {fileID: 8823718451175743602, guid: 1ed94cf65ea9f1d49ba90e9cbd553621, type: 3}
+      propertyPath: <planets>k__BackingField.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0b5a1ece25f70cc439da246d6361efbf, type: 2}
+    - target: {fileID: 8823718451175743602, guid: 1ed94cf65ea9f1d49ba90e9cbd553621, type: 3}
+      propertyPath: <planets>k__BackingField.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4d4548bbb361a4c4293d33d80eb33c1c, type: 2}
+    - target: {fileID: 8823718451175743602, guid: 1ed94cf65ea9f1d49ba90e9cbd553621, type: 3}
+      propertyPath: <planets>k__BackingField.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: a8e8940a98721475f8a691ec877e0736, type: 2}
     - target: {fileID: 8823718451175743602, guid: 1ed94cf65ea9f1d49ba90e9cbd553621, type: 3}
       propertyPath: <chosenElements>k__BackingField.Array.size
       value: 0
