@@ -12,9 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba0cf68213be505498a4c97a2feb2a1c, type: 3}
   m_Name: 55 Cancri C
   m_EditorClassIdentifier: 
-  PlanetName: 
-  StarName: 
-  PlanetSprite: {fileID: 0}
-  PlanetDescription: 
-  PlanetLookDescription: 
-  elements: []
+  PlanetName: '55 Cancri C '
+  StarName: Copernicus
+  PlanetSprite: {fileID: 21300000, guid: ed5d9db72e4b5a74182c2b6d41eaae59, type: 3}
+  PlanetDescription: "55 Cancri C is such an amazing exoplanet. You coud find Carbon
+    in a form of diamonds on its Surface. The other name of this planet is \u201EBrahe\u201D.
+    It orbits the star called Copernicus \u2013 it\u2019s the name of the polish
+    astronomer Nicolaus Copernicus. "
+  PlanetLookDescription: "55 Cancri C is such an amazing exoplanet. You coud find
+    Carbon in a form of diamonds on its Surface. The other name of this planet is
+    \u201EBrahe\u201D. It orbits the star called Copernicus \u2013 it\u2019s the
+    name of the polish astronomer Nicolaus Copernicus. "
+  elements:
+  - {fileID: 11400000, guid: b5deb30d5675c8d4b9312bc910d5eca1, type: 2}

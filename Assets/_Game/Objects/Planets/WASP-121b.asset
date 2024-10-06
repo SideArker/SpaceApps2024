@@ -12,9 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba0cf68213be505498a4c97a2feb2a1c, type: 3}
   m_Name: WASP-121b
   m_EditorClassIdentifier: 
-  PlanetName: 
-  StarName: 
-  PlanetSprite: {fileID: 0}
-  PlanetDescription: 
-  PlanetLookDescription: 
-  elements: []
+  PlanetName: 'WASP-121b '
+  StarName: WASP-121
+  PlanetSprite: {fileID: 21300000, guid: 963d89797c4a68741884a38ddd09b617, type: 3}
+  PlanetDescription: "WASP-121b - The atmosphere of this exoplanet is incredibly
+    interesting. In its composition there are: Iron, Magnesium, Chromium, Vanadium
+    and Sodium in their respective relative to the temerature states of matter. Another
+    name of this object is \u201ETylos\u201D and it\u2019s after ancient Greek name
+    from ancient civilization."
+  PlanetLookDescription: "WASP-121b - The atmosphere of this exoplanet is incredibly
+    interesting. In its composition there are: Iron, Magnesium, Chromium, Vanadium
+    and Sodium in their respective relative to the temerature states of matter. Another
+    name of this object is \u201ETylos\u201D and it\u2019s after ancient Greek name
+    from ancient civilization."
+  elements:
+  - {fileID: 11400000, guid: 7b1304e8fc9698f429ca1499c09bd9b4, type: 2}
+  - {fileID: 11400000, guid: 7ab2cc8aea0b1ad47b84f3f7b4cb843e, type: 2}

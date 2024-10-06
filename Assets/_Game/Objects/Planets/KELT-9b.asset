@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba0cf68213be505498a4c97a2feb2a1c, type: 3}
   m_Name: KELT-9b
   m_EditorClassIdentifier: 
-  PlanetName: 
-  StarName: 
-  PlanetSprite: {fileID: 0}
-  PlanetDescription: 
-  PlanetLookDescription: 
-  elements: []
+  PlanetName: 'KELT-9b '
+  StarName: KELT-9
+  PlanetSprite: {fileID: 21300000, guid: e09941a96a4c540488bce4e085791e47, type: 3}
+  PlanetDescription: "KELT-9b - a giant planet with a mass of about 2.9 times bigger
+    than the mass of Jupiter. The planet has really high temperature \u2013 4000\xB0C.
+    This means, that we can found Iron and Titan in gas form there! KELT-9b circles
+    the its star KELT-9 at close range in just 36 hours."
+  PlanetLookDescription: "KELT-9b - a giant planet with a mass of about 2.9 times
+    bigger than the mass of Jupiter. The planet has really high temperature \u2013
+    4000\xB0C. This means, that we can found Iron and Titan in gas form there! KELT-9b
+    circles the its star KELT-9 at close range in just 36 hours."
+  elements:
+  - {fileID: 11400000, guid: 7b1304e8fc9698f429ca1499c09bd9b4, type: 2}
+  - {fileID: 11400000, guid: 708c693a52d2ad043835defe10754b2f, type: 2}

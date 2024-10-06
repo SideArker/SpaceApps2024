@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba0cf68213be505498a4c97a2feb2a1c, type: 3}
   m_Name: Gliese 581c
   m_EditorClassIdentifier: 
-  PlanetName: 
-  StarName: 
-  PlanetSprite: {fileID: 0}
-  PlanetDescription: 
-  PlanetLookDescription: 
-  elements: []
+  PlanetName: Gliese 581c
+  StarName: Gliese 581
+  PlanetSprite: {fileID: 21300000, guid: a97f0bb32a59a4e468a9ddfb1729923e, type: 3}
+  PlanetDescription: Gliese 581c - this planet is located in the constellation Libra
+    about 20.5 light years (~194 trillion km) from Earth, which astronomically is
+    a very short distance! Gliese 581 c's circulation time around the star is 13
+    Earth days.
+  PlanetLookDescription: Gliese 581c - this planet is located in the constellation
+    Libra about 20.5 light years (~194 trillion km) from Earth, which astronomically
+    is a very short distance! Gliese 581 c's circulation time around the star is
+    13 Earth days.
+  elements:
+  - {fileID: 11400000, guid: b5deb30d5675c8d4b9312bc910d5eca1, type: 2}
+  - {fileID: 11400000, guid: 63124ef8e28476d47b62b40fd3782972, type: 2}
