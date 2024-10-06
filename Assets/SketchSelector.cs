@@ -18,7 +18,7 @@ public class SketchSelector : MonoBehaviour
     private void Start()
     {
         planetName.text = DataHandler.instance.chosenPlanetObject.name;
-        planetDescription.text = DataHandler.instance.chosenPlanetObject.PlanetDescription;
+        planetDescription.text = DataHandler.instance.chosenPlanetObject.PlanetLookDescription;
 
         List<PlanetObject> temp = new List<PlanetObject>();
 
