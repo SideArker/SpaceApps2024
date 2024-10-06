@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,13 @@ public class CoordinateHandler : MonoBehaviour
     {
         CoordinatePrefab.SetActive(true);
         CoordinateCamera.SetActive(true);
-        Camera.main.gameObject.SetActive(false);
+        try
+        {
+            Camera.main.gameObject.SetActive(false);
+        }
+        catch
+        {
+        }
     }
 
     public void AfterCoordinates()

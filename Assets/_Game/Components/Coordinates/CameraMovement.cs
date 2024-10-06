@@ -43,7 +43,7 @@ public class CameraMovement : MonoBehaviour
         {
             Vector2 randomVector = new Vector2(Random.Range(minSpawnBounds.x, maxSpawnBounds.x), Random.Range(minSpawnBounds.y, maxSpawnBounds.y));
             GameObject starClone = Instantiate(star, transform.parent);
-            Debug.Log(starClone);
+            // Debug.Log(starClone);
             starClone.transform.position = randomVector;
             stars.Add(starClone);
         }
