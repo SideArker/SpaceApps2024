@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -58,3 +60,5 @@ public class MainMenuEditor : Editor
         base.DrawDefaultInspector();
     }
 }
+
+#endif
