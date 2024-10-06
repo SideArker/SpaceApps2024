@@ -39,6 +39,12 @@ public class DataHandler : MonoBehaviour
     public void StartGame()
     {
         Debug.LogWarning("Starting game");
+
+        // for (int i = 0; i < 10; i++)
+        // {
+        //     print(planets[Random.Range(0, planets.Count)].name);
+        // }
+        
         try
         {
             selectedPlanet = planets[Random.Range(0, planets.Count)];

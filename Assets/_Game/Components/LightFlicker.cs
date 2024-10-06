@@ -24,7 +24,7 @@ public class LightFlicker : MonoBehaviour
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         while(true)
         {
-            int subsequentFlicks = Random.Range(1, 2);
+            int subsequentFlicks = Random.Range(2, 5);
            yield return new WaitForSeconds(Random.Range(25f, timeForFlicker));
             for (int i = 0; i < subsequentFlicks; i++)
             {
@@ -34,6 +34,8 @@ public class LightFlicker : MonoBehaviour
                 yield return new WaitForSeconds(flickerDuration);
                 light.enabled = true;
                 spriteRenderer.sprite = litSprite;
+                yield return new WaitForSeconds(flickerDuration);
+
             }
 
 

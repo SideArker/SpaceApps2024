@@ -4315,8 +4315,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e954b33ca8352324c96b4965f05a54d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeForFlicker: 30
-  flickerDuration: 0.3
+  timeForFlicker: 25
+  flickerDuration: 0.1
   litSprite: {fileID: 21300000, guid: 0a579295a65734030ac9f0c02cae80d6, type: 3}
   unlitSprite: {fileID: 21300000, guid: 6828b57c57468e04fb458400002e5e1a, type: 3}
 --- !u!114 &1650392733
