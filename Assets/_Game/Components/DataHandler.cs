@@ -23,6 +23,8 @@ public class DataHandler : MonoBehaviour
     [field: SerializeField]
     public List<PlanetObject> planets { get; private set; } = new List<PlanetObject>();
 
+    public bool isSKetchCorrect = false;
+    
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);

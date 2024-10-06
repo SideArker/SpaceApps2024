@@ -38,4 +38,13 @@ public class SketchSelector : MonoBehaviour
 
 
     }
+
+    public void select(int id)
+    {
+        DataHandler.instance.isSKetchCorrect = (id == selectedIndex);
+        
+        print(DataHandler.instance.isSKetchCorrect);
+        
+        //DO SOMETHING TO SUMMARY
+    }
 }
