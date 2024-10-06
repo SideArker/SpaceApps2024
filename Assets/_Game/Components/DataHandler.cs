@@ -1,14 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class DataHandler : MonoBehaviour
 {
     public static DataHandler instance;
-    [SerializeField] float points;
-    [SerializeField] float time;
+    [SerializeField]public int points;
+    [SerializeField] int time;
     [SerializeField] Camera mainCam;
     [SerializeField] GameObject canvas;
     [field: SerializeField]
@@ -26,10 +27,14 @@ public class DataHandler : MonoBehaviour
     public List<PlanetObject> planets { get; private set; } = new List<PlanetObject>();
 
     public bool isSKetchCorrect = false;
+
+    public int countedTime = 0;
+
+    public GameObject summaryScreen;
     
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        // DontDestroyOnLoad(gameObject);
 
         if(instance != null) Destroy(this);
         instance = this;
@@ -44,6 +49,10 @@ public class DataHandler : MonoBehaviour
         // {
         //     print(planets[Random.Range(0, planets.Count)].name);
         // }
+
+        time = 0;
+
+        points = 0;
         
         try
         {
@@ -77,7 +86,7 @@ public class DataHandler : MonoBehaviour
     }
     public void SetPoints(float points)
     {
-        this.points = points;
+        // this.points = points;
     }
 
     IEnumerator Timer()
@@ -95,9 +104,11 @@ public class DataHandler : MonoBehaviour
         StartGame();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Finish()
     {
-        
+        summaryScreen.SetActive(true);
+        countedTime = time;
+        points = math.clamp(500 - time, 0, 500) * (selectedPlanet == chosenPlanetObject ? 2 : 0) * (isSKetchCorrect ? 2 : 1);
     }
+    
 }

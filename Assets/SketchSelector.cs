@@ -47,5 +47,6 @@ public class SketchSelector : MonoBehaviour
         
         //DO SOMETHING TO SUMMARY
         Journal.Instance.JournalClose();
+        DataHandler.instance.Finish();
     }
 }
