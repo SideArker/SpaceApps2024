@@ -42,7 +42,7 @@ public class CameraMovement : MonoBehaviour
         for(int i = 0; i < numberOfStars; i++)
         {
             Vector2 randomVector = new Vector2(Random.Range(minSpawnBounds.x, maxSpawnBounds.x), Random.Range(minSpawnBounds.y, maxSpawnBounds.y));
-            GameObject starClone = Instantiate(star);
+            GameObject starClone = Instantiate(star, transform.parent);
             Debug.Log(starClone);
             starClone.transform.position = randomVector;
             stars.Add(starClone);
@@ -74,7 +74,7 @@ public class CameraMovement : MonoBehaviour
         {
             if (stars.Contains(raycastHit2D.collider.gameObject))
             {
-                Debug.Log("Crosshair on star");
+                DataHandler.instance.GetCoordinates();
             }
         }
     }

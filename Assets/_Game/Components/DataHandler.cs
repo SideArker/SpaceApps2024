@@ -9,6 +9,8 @@ public class DataHandler : MonoBehaviour
     public static DataHandler instance;
     [SerializeField] float points;
     [SerializeField] float time;
+    [SerializeField] Camera mainCam;
+    [SerializeField] GameObject canvas;
     [field: SerializeField]
     public PlanetObject selectedPlanet { get; private set; }
 
@@ -61,6 +63,12 @@ public class DataHandler : MonoBehaviour
         GetComponent<PointCounter>().AddPoints(time);
     }
 
+
+    public void GetCoordinates()
+    {
+        mainCam.gameObject.SetActive(true);
+        canvas.GetComponent<CoordinateHandler>().AfterCoordinates();
+    }
     public void SetPoints(float points)
     {
         this.points = points;
