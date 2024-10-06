@@ -11,10 +11,14 @@ public class CameraMovement : MonoBehaviour
     private Vector3 maxBounds;
     private float camHalfHeight; 
     private float camHalfWidth;
+    [SerializeField] float pingCooldown = 1.5f;
     [SerializeField] int numberOfStars;
     [SerializeField] GameObject star;
     [SerializeField] Collider2D spawnBounds;
+    [SerializeField] GameObject crosshair;
 
+    bool pingOnCooldown = false;
+    
     List<GameObject> stars = new List<GameObject>();
 
     void Start()
@@ -45,19 +49,43 @@ public class CameraMovement : MonoBehaviour
         }
     }
 
+
+    void PingCD()
+    {
+        pingOnCooldown = false;
+    }
+
     void SendPing()
     {
+        pingOnCooldown = true;
+        Invoke(nameof(PingCD), pingCooldown);
+        crosshair.GetComponent<ParticleSystem>().Play();
         foreach(GameObject star in stars)
         {
             star.GetComponent<ParticleSystem>().Play();
         }
     }    
+
+    void GetPing()
+    {
+        RaycastHit2D[] hit = Physics2D.RaycastAll(crosshair.transform.position, Vector3.forward);
+
+        foreach(RaycastHit2D raycastHit2D in hit)
+        {
+            if (stars.Contains(raycastHit2D.collider.gameObject))
+            {
+                Debug.Log("Crosshair on star");
+            }
+        }
+    }
     
     void Update()
     {
         MoveCameraTowardsCursor();
 
-        if(Input.GetKey(KeyCode.Space)) SendPing();
+        if(Input.GetKey(KeyCode.Space) && !pingOnCooldown) SendPing();
+
+        if (Input.GetKey(KeyCode.Return)) GetPing();
     }
 
     void MoveCameraTowardsCursor()
