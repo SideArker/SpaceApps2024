@@ -19,10 +19,14 @@ MonoBehaviour:
     of about 60 light years from Earth. The planet was discovered in 2005 and belongs
     to the category of Hot Jupiters. Nitrogen and potassium are the elements that
     make up the atmosphere of this object.
-  PlanetLookDescription: HD 189733 b is a name of exoplanet that is located at a
-    distance of about 60 light years from Earth. The planet was discovered in 2005
-    and belongs to the category of Hot Jupiters. Nitrogen and potassium are the elements
-    that make up the atmosphere of this object.
+  PlanetLookDescription: This planet has an extremely picturesque and dynamic surface.
+    Blue tones dominate here, which may indicate an atmosphere rich in water or gas,
+    or perhaps even oceanic areas. Between the blue areas stretch white structures
+    that may resemble clouds, and their texture suggests that they may be massive
+    storms or dense clouds of water vapor. In addition, subtle orange and gold streaks
+    are visible, which could be the effect of the setting sun, producing spectacular
+    atmospheric effects. The planet appears to be a place with intense weather conditions
+    and is visually very vivid, giving it a unique, almost cosmically artistic character.
   elements:
   - {fileID: 11400000, guid: 7ab2cc8aea0b1ad47b84f3f7b4cb843e, type: 2}
   - {fileID: 11400000, guid: ee75700ae6c9b24429297ce4ae17976a, type: 2}

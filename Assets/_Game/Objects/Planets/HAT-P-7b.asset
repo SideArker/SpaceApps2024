@@ -19,9 +19,14 @@ MonoBehaviour:
     at a distance of about 1,000 light years from Earth in the constellation called
     Swan. The planet HAT-P-7b orbits its parent star in just 31 hours. The temperature
     on its diurnal side reaches 2730 K. '
-  PlanetLookDescription: 'HAT-P-7b is an exoplanet in Hot Jupiters type. It is located
-    at a distance of about 1,000 light years from Earth in the constellation called
-    Swan. The planet HAT-P-7b orbits its parent star in just 31 hours. The temperature
-    on its diurnal side reaches 2730 K. '
+  PlanetLookDescription: This planet has a smooth, creamy yellow surface with pronounced
+    swirls and ripples, suggesting dynamic atmospheric phenomena, perhaps winds or
+    cloud movements. The bright reflection of light at the top of the image indicates
+    a high intensity of illumination, suggesting the proximity of a star or a strong
+    light source. The planet's colors, ranging from light beige to darker shades
+    of brown, may indicate a surface covered with dust or gases, as in the case of
+    gaseous planets such as Venus or Jupiter. The whole gives the impression of a
+    hot and dry world with intense atmospheric motions.
   elements:
+  - {fileID: 11400000, guid: 1d012cf7ff6ed1440930bc53daea7a51, type: 2}
   - {fileID: 11400000, guid: 7b1304e8fc9698f429ca1499c09bd9b4, type: 2}

@@ -17,14 +17,14 @@ public class SketchSelector : MonoBehaviour
 
     private void Start()
     {
-        planetName.text = DataHandler.instance.selectedPlanet.name;
-        planetDescription.text = DataHandler.instance.selectedPlanet.PlanetDescription;
+        planetName.text = DataHandler.instance.chosenPlanetObject.name;
+        planetDescription.text = DataHandler.instance.chosenPlanetObject.PlanetDescription;
 
         List<PlanetObject> temp = new List<PlanetObject>();
 
         temp = DataHandler.instance.planets.ToList();
 
-        temp.Remove(DataHandler.instance.selectedPlanet);
+        temp.Remove(DataHandler.instance.chosenPlanetObject);
 
         foreach (var image in images)
         {
@@ -34,7 +34,7 @@ public class SketchSelector : MonoBehaviour
         }
 
         selectedIndex = Random.Range(0, images.Length);
-        images[selectedIndex].sprite = DataHandler.instance.selectedPlanet.PlanetSprite;
+        images[selectedIndex].sprite = DataHandler.instance.chosenPlanetObject.PlanetSprite;
 
 
     }

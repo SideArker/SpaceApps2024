@@ -19,10 +19,14 @@ MonoBehaviour:
     about 20.5 light years (~194 trillion km) from Earth, which astronomically is
     a very short distance! Gliese 581 c's circulation time around the star is 13
     Earth days.
-  PlanetLookDescription: Gliese 581c - this planet is located in the constellation
-    Libra about 20.5 light years (~194 trillion km) from Earth, which astronomically
-    is a very short distance! Gliese 581 c's circulation time around the star is
-    13 Earth days.
+  PlanetLookDescription: This planet has a dark, monochromatic surface with subtle
+    swirling patterns and bright reflections, which may suggest intense atmospheric
+    phenomena or energy emanating from within. The large bright spot at the top of
+    the planet appears to be the result of reflected light, which could mean that
+    it is a body with a smooth, reflective surface. The planet looks like it is covered
+    in shadow or fog, which could suggest that it is shrouded by a thick atmosphere
+    or that it is in the shadow of its parent sun. The entire scene is in tones of
+    gray, giving the planet a mysterious, almost ethereal feel.
   elements:
   - {fileID: 11400000, guid: b5deb30d5675c8d4b9312bc910d5eca1, type: 2}
   - {fileID: 11400000, guid: 63124ef8e28476d47b62b40fd3782972, type: 2}

@@ -19,10 +19,12 @@ MonoBehaviour:
     in Cherokee language! This objects atmosphere is filled with hydrogen and helium.
     Did you know, that it takes only 2 days 15 hours and 30 minutes for one circuit
     of GJ 436 b? This exoplanets mass is really similar to that of Neptune."
-  PlanetLookDescription: "GJ 436 b is often called Awohali and that means \u201Eeagle\u201D
-    in Cherokee language! This objects atmosphere is filled with hydrogen and helium.
-    Did you know, that it takes only 2 days 15 hours and 30 minutes for one circuit
-    of GJ 436 b? This exoplanets mass is really similar to that of Neptune."
+  PlanetLookDescription: This planet has a very smooth and uniform surface, with
+    predominantly bright white and bluish tones that may suggest the presence of
+    ice or a dense atmosphere composed of gases such as hydrogen or helium. Shadows
+    and fuzzy rays of light may indicate cloudiness or changing atmospheric conditions.
+    The planet appears to be in the colder part of its system, with ice regions and
+    clouds of water vapor dominating.
   elements:
   - {fileID: 11400000, guid: 1d012cf7ff6ed1440930bc53daea7a51, type: 2}
   - {fileID: 11400000, guid: 1a17cbda33478864aa15aab7c974b09a, type: 2}

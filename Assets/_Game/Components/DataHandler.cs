@@ -11,8 +11,8 @@ public class DataHandler : MonoBehaviour
     [SerializeField] float time;
     [field: SerializeField]
     public PlanetObject selectedPlanet { get; private set; }
-    [field: SerializeField]
-    public PlanetObject chosenPlanetObject { get; private set; }
+
+    [field: SerializeField] public PlanetObject chosenPlanetObject;
     public bool correctPlanet { get; private set; }
 
     public ElementObject[] elements;

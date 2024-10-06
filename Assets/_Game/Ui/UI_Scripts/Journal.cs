@@ -74,6 +74,8 @@ public class Journal : MonoBehaviour
 
             exoPlanetNameConfirm.text = findedPlanet.name;
             exoPlanetLookDesc.text = findedPlanet.PlanetLookDescription;
+
+            DataHandler.instance.chosenPlanetObject = findedPlanet;
         }
 
 

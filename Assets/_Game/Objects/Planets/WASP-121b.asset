@@ -20,11 +20,14 @@ MonoBehaviour:
     and Sodium in their respective relative to the temerature states of matter. Another
     name of this object is \u201ETylos\u201D and it\u2019s after ancient Greek name
     from ancient civilization."
-  PlanetLookDescription: "WASP-121b - The atmosphere of this exoplanet is incredibly
-    interesting. In its composition there are: Iron, Magnesium, Chromium, Vanadium
-    and Sodium in their respective relative to the temerature states of matter. Another
-    name of this object is \u201ETylos\u201D and it\u2019s after ancient Greek name
-    from ancient civilization."
+  PlanetLookDescription: This planet has a very dynamic and vibrant appearance, dominated
+    by warm shades of orange, red and brown. It resembles a volcanic landscape, with
+    glowing patches that may suggest tectonic activity or volcanic eruptions on the
+    surface. Wavy patterns and brighter lines may represent movements of clouds or
+    lava flows. Bright points of light add to the planet's impression of energy and
+    intensity, as if it were in a state of constant transformation. The overall appearance
+    is reminiscent of a planet with an active geology and a hot, thick atmosphere,
+    probably close to its star, which contributes to its heated, turbulent surface.
   elements:
   - {fileID: 11400000, guid: 7b1304e8fc9698f429ca1499c09bd9b4, type: 2}
   - {fileID: 11400000, guid: 7ab2cc8aea0b1ad47b84f3f7b4cb843e, type: 2}

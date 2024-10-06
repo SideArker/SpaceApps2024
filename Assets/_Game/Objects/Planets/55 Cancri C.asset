@@ -19,9 +19,13 @@ MonoBehaviour:
     in a form of diamonds on its Surface. The other name of this planet is \u201EBrahe\u201D.
     It orbits the star called Copernicus \u2013 it\u2019s the name of the polish
     astronomer Nicolaus Copernicus. "
-  PlanetLookDescription: "55 Cancri C is such an amazing exoplanet. You coud find
-    Carbon in a form of diamonds on its Surface. The other name of this planet is
-    \u201EBrahe\u201D. It orbits the star called Copernicus \u2013 it\u2019s the
-    name of the polish astronomer Nicolaus Copernicus. "
+  PlanetLookDescription: This planet shown in the image has a dark blue surface,
+    which is partially covered with bright, glowing areas of orange-yellow colors.
+    These luminous structures may suggest intense volcanic activity or thermal energy
+    erupting through the planet's crust. It looks as if the planet is in a phase
+    of intense transformation, perhaps due to a cataclysmic event or internal geological
+    processes. The atmosphere appears to be dark, adding to the drama of the whole
+    scene.
   elements:
   - {fileID: 11400000, guid: b5deb30d5675c8d4b9312bc910d5eca1, type: 2}
+  - {fileID: 11400000, guid: 1d012cf7ff6ed1440930bc53daea7a51, type: 2}

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9c6aa39a0ad72546a29f6b75ab162be, type: 3}
-  m_Name: magnesium
+  m_Name: MAGNESIUM
   m_EditorClassIdentifier: 
-  ElementName: 
+  ElementName: Magnesium
   Sprite: {fileID: 0}
-  Spectre: {fileID: 0}
+  Spectre: {fileID: 21300000, guid: 0d445ae4d22864eb6aab0cdd22a6ea35, type: 3}

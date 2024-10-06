@@ -19,10 +19,13 @@ MonoBehaviour:
     than the mass of Jupiter. The planet has really high temperature \u2013 4000\xB0C.
     This means, that we can found Iron and Titan in gas form there! KELT-9b circles
     the its star KELT-9 at close range in just 36 hours."
-  PlanetLookDescription: "KELT-9b - a giant planet with a mass of about 2.9 times
-    bigger than the mass of Jupiter. The planet has really high temperature \u2013
-    4000\xB0C. This means, that we can found Iron and Titan in gas form there! KELT-9b
-    circles the its star KELT-9 at close range in just 36 hours."
+  PlanetLookDescription: This planet has a warm, brownish-red coloration that resembles
+    bands of atmospheric gases similar to those seen on Jupiter or Saturn. Wavy,
+    rounded forms in the atmosphere suggest intense winds and storms moving across
+    its surface. The dominant shades of brown, orange and red may suggest the presence
+    of methane or ammonia clouds, which give the planet its distinctive Martian appearance.
+    The overall impression is of a gaseous planet with a turbulent atmosphere and
+    dynamic weather phenomena that exudes warmth and energy.
   elements:
   - {fileID: 11400000, guid: 7b1304e8fc9698f429ca1499c09bd9b4, type: 2}
   - {fileID: 11400000, guid: 708c693a52d2ad043835defe10754b2f, type: 2}

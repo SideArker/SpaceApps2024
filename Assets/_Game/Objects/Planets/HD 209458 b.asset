@@ -21,12 +21,14 @@ MonoBehaviour:
     of methane. This exoplanet is located approximately 159 light-years away from
     Earth. Did you know, that the exoplanet has been nicknamed \u201EOsiris\u201D
     after the Egyptian god?"
-  PlanetLookDescription: "HD 209458 b orbits the star HD 209458 in the constellation
-    Pegasus! The atmosphere of HD 209458 b contains hydrogen, oxygen, carbon, and
-    sodium, but not only. There\u2019s also Water vapor, carbon monoxide, and traces
-    of methane. This exoplanet is located approximately 159 light-years away from
-    Earth. Did you know, that the exoplanet has been nicknamed \u201EOsiris\u201D
-    after the Egyptian god?"
+  PlanetLookDescription: This planet has a very simple and minimalist appearance,
+    the dominant color being white with a slight bluish-gray tint. The lack of distinct
+    surface details suggests that it may be a celestial body covered by ice or having
+    a uniform atmosphere, perhaps consisting of dense clouds or haze. The smoothness
+    of the surface and lack of color variation may indicate that the planet is shrouded
+    in a thick layer of clouds, much like Uranus or Neptune in the Solar System.
+    This suggests that it is a cool, calm world with stable but little variation
+    in conditions.
   elements:
   - {fileID: 11400000, guid: 1a17cbda33478864aa15aab7c974b09a, type: 2}
-  - {fileID: 11400000, guid: 1d012cf7ff6ed1440930bc53daea7a51, type: 2}
+  - {fileID: 11400000, guid: b5deb30d5675c8d4b9312bc910d5eca1, type: 2}
