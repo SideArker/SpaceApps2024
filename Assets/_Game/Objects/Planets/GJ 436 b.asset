@@ -23,4 +23,6 @@ MonoBehaviour:
     in Cherokee language! This objects atmosphere is filled with hydrogen and helium.
     Did you know, that it takes only 2 days 15 hours and 30 minutes for one circuit
     of GJ 436 b? This exoplanets mass is really similar to that of Neptune."
-  elements: []
+  elements:
+  - {fileID: 11400000, guid: 1d012cf7ff6ed1440930bc53daea7a51, type: 2}
+  - {fileID: 11400000, guid: 1a17cbda33478864aa15aab7c974b09a, type: 2}

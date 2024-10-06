@@ -102,13 +102,13 @@ public class Journal : MonoBehaviour
         planetPanel.SetActive(false);
         var dh = DataHandler.instance;
         sketchpanel.SetActive(true);
-        List<PlanetObject> tempPlanets = dh.planets;
-        foreach (Image img in confirmImages)
-        {
-            int randomIndex = Random.Range(0, tempPlanets.Count);
-            img.sprite = dh.planets[randomIndex].PlanetSprite;
-            tempPlanets.RemoveAt(randomIndex);
-        }
+        // List<PlanetObject> tempPlanets = dh.planets;
+        // foreach (Image img in confirmImages)
+        // {
+        //     int randomIndex = Random.Range(0, tempPlanets.Count);
+        //     img.sprite = dh.planets[randomIndex].PlanetSprite;
+        //     tempPlanets.RemoveAt(randomIndex);
+        // }
     }
 
 
